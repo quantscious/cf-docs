@@ -53,11 +53,11 @@
   "footer": {
     "links": [
       {
-        "title": "Cryptfloe",
+        "header": "Cryptfloe",
         "items": [
           {
-            "name": "Website",
-            "url": "https://cryptfloe.com"
+            "label": "Website",
+            "href": "https://cryptfloe.com"
           }
         ]
       }
