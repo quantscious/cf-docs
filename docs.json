@@ -3,12 +3,27 @@
 
   "theme": "mint",
   "name": "Cryptfloe Docs",
+  "description": "Cryptfloe documentation — high-frequency historical cryptocurrency market data for backtesting, quantitative research, and trading system development.",
   "colors": {
     "primary": "#0437F2",
     "light": "#7894FF",
     "dark": "#0437F2"
   },
   "favicon": "/favicon.svg",
+  "font": {
+    "headings": {
+      "family": "Manrope",
+      "weight": 600
+    },
+    "body": {
+      "family": "Inter",
+      "weight": 400
+    },
+    "code": {
+      "family": "IBM Plex Mono",
+      "weight": 400
+    }
+  },
   "navigation": {
     "pages": [
       {
@@ -22,7 +37,35 @@
   },
   "logo": {
     "light": "/logo/light.png",
-    "dark": "/logo/dark.png"
+    "dark": "/logo/dark.png",
+    "href": "/"
+  },
+  "topbarLinks": [
+    {
+      "name": "Website",
+      "url": "https://cryptfloe.com"
+    }
+  ],
+  "topbarCtaButton": {
+    "name": "Get Started",
+    "url": "https://cryptfloe.com"
+  },
+  "footer": {
+    "links": [
+      {
+        "title": "Cryptfloe",
+        "links": [
+          {
+            "name": "Website",
+            "url": "https://cryptfloe.com"
+          }
+        ]
+      }
+    ]
+  },
+  "metadata": {
+    "og:site_name": "Cryptfloe Docs",
+    "twitter:site": "@cryptfloe"
   },
   "contextual": {
     "options": [
